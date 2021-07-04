@@ -6,12 +6,15 @@ body{
 h1{
     font-size: 69px ;
 }
+h2{
+    font-size: 40px;
+}
 .redcolour{
         color: firebrick;    
 }
-section{
+.flexible-container{
     display: flex;
-    margin: 150px;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 40%;
@@ -32,8 +35,7 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-
-}
+    }
 p{
     padding: 10px;
 
@@ -46,4 +48,35 @@ p{
 #image-repeat{
     background-color: white;
     font-weight: 800;
+}
+.experience{
+    padding-left: 40px;
+    margin: 5px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+    background-size: 180px;
+}
+.experience-item{
+    box-shadow: 10px 20px 40px  rgb(69, 42, 158);
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    border-radius: 20px;
+    
+}
+#fullweb{
+    border-left: 10px solid;
+    border-image: linear-gradient(yellow,orange,red);
+    border-image-slice: 1;
+}
+#babydev{
+    border-left: 10px solid;
+    border-image: linear-gradient(yellow,orange,red);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
 }
